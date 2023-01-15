@@ -3,7 +3,7 @@
 
 This repository is our implementation of 
 
-[Hongyuan Zhang, Jiankun Shi, Rui Zhang, and Xuelong Li,  "Non-Graph Data Clustering via $O(n)$ Bipartite Graph Convolution," *IEEE Transactions on Pattern Analysis and Machine Intelligence*, DOI:10.1109/TPAMI.2022.3231470, 2022](https://ieeexplore.ieee.org/document/9996549).
+[Hongyuan Zhang, Jiankun Shi, Rui Zhang, and Xuelong Li,  "Non-Graph Data Clustering via O(n) Bipartite Graph Convolution," *IEEE Transactions on Pattern Analysis and Machine Intelligence*, DOI:10.1109/TPAMI.2022.3231470, 2022](https://ieeexplore.ieee.org/document/9996549).
 
 AnchorGAE attempts to accelarate the unsupervised GNN (e.g., [AdaGAE](https://github.com/hyzhang98/AdaGAE)), which could be used to promote the clustering performance, via the classical  trick of anchors / landmarks. It leads to a Siamese architecture and a specific graph convolution operation. 
 
@@ -63,3 +63,17 @@ python Main.py --datasetName=usps_all --AnchorNum=400 --increase_k=6 --k0=3
 - scipy 1.3.1
 - scikit-learn 0.21.3
 - numpy 1.16.5
+
+## Citation
+```
+@article{AnchorGAE,
+  author={Zhang, Hongyuan and Shi, Jiankun and Zhang, Rui and Li, Xuelong},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Non-Graph Data Clustering via O(n) Bipartite Graph Convolution}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TPAMI.2022.3231470}
+}
+```
